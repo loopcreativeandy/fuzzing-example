@@ -1,0 +1,1056 @@
+=====================================================================
+TIME: 2024-09-11.11:51:34
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: c5544bfcae8cb6e82e4cc05dfda1d135.00000043.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.1b069778c2.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 688593
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000001b069778c2
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0927> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678a56> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a0f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0f81> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0ce0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0c36> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0c23> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555efff4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e643> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680b9c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556801ea> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556801c8> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a069d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680210> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555567ff85> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.11:51:49
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 309ce350261c5188353a616b1e88b462.000000be.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.1b06d14323.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 695313
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000001b06d14323
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0927> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678a56> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a0f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0f81> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0ca8> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0c36> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0c23> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555efff4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f00e4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557ab36f> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557a9634> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555682ea6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555fc01e3> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555619e3fd> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555561bfef1> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d47050> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41bb0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d418bf> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d2ce5> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7d16ac3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7da8850> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.11:57:19
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 091ba757568875c4c390870af411c40f.00000058.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.1b069778c2.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 715757
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000001b069778c2
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0927> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678a56> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a0f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0f81> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0ce0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0c36> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0c23> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555efff4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e0aa> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680b9c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556801ea> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556801c8> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a069d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680210> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555567ff85> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.11:57:31
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 309ce350261c5188353a616b1e88b462.000000be.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.1b06d14323.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 725380
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000001b06d14323
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0927> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678a56> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a0f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0f81> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0ca8> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0c36> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d0c23> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555efff4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f00e4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557ab36f> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557a9634> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555682ea6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555fc01e3> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555619e3fd> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555561bfef1> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d47050> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41bb0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d418bf> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d2ce5> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7d16ac3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7da8850> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:06:55
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 309ce350261c5188353a616b1e88b462.000000be.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.df8c245f0.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 777864
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000df8c245f0
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0f07> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a6d6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1561> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1288> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1216> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1203> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f02b4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557ab94f> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557a9c14> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555683076> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555fc07c3> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555619e9dd> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555561c04d1> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d47630> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d42190> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41e9f> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d32c5> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7d16ac3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7da8850> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:06:58
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: d7bc268daaad7548ba78992deeb4c06f.0000002f.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.dfb4f0d61.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 771324
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000dfb4f0d61
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0f07> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a6d6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1561> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d12c0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1216> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1203> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555695b77> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555eeda6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568eb1e> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0c7d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:11:52
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: c5544bfcae8cb6e82e4cc05dfda1d135.00000043.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 788425
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e920> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:12:18
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: c5544bfcae8cb6e82e4cc05dfda1d135.00000043.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 794923
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e920> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:12:32
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 309ce350261c5188353a616b1e88b462.000000be.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8afbf0b3.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 801610
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8afbf0b3
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10a8> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f02b4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557ab76f> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557a9a34> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555683076> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555fc05e3> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555619e7fd> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555561c02f1> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d47450> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41fb0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41cbf> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d30e5> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7d16ac3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7da8850> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:17:37
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 309ce350261c5188353a616b1e88b462.000000be.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8afbf0b3.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 828240
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8afbf0b3
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10a8> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f02b4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557ab76f> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557a9a34> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555683076> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555fc05e3> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555619e7fd> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555561c02f1> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d47450> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41fb0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41cbf> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d30e5> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7d16ac3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7da8850> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:17:40
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: d7bc268daaad7548ba78992deeb4c06f.0000002f.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 821678
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555695997> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555eeda6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e949> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:18:31
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 309ce350261c5188353a616b1e88b462.000000be.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8afbf0b3.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.2024-09-11.12:18:31.840618.fuzz
+PID: 840618
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8afbf0b3
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10a8> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f02b4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557ab76f> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557a9a34> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555683076> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555fc05e3> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555619e7fd> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555561c02f1> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d47450> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41fb0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41cbf> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d30e5> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7d16ac3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7da8850> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:18:35
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: d7bc268daaad7548ba78992deeb4c06f.0000002f.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.2024-09-11.12:18:35.834014.fuzz
+PID: 834014
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555695997> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555eeda6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e949> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:18:36
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 19a80e315ff0c351720ca48c563fb4c8.00000026.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.2024-09-11.12:18:36.834015.fuzz
+PID: 834015
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e920> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:18:37
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a3e055b6def99015a99de00c0e257ff9.00000011.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.2024-09-11.12:18:37.834016.fuzz
+PID: 834016
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e920> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:19:28
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 7265121c6f6c346e16605096fb396f79.00000053.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.2024-09-11.12:19:28.841680.fuzz
+PID: 841680
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555695997> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555eeda6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e949> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:24:53
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 309ce350261c5188353a616b1e88b462.000000be.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8afbf0b3.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 858305
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8afbf0b3
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10a8> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f02b4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557ab76f> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557a9a34> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555683076> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555fc05e3> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555619e7fd> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555561c02f1> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d47450> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41fb0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41cbf> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d30e5> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7d16ac3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7da8850> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:24:56
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: d7bc268daaad7548ba78992deeb4c06f.0000002f.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 851697
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555695997> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555eeda6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e949> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:28:14
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 309ce350261c5188353a616b1e88b462.000000be.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8afbf0b3.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.2024-09-11.12:28:14.870986.fuzz
+PID: 870986
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8afbf0b3
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10a8> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f02b4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557ab76f> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555557a9a34> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555683076> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555fc05e3> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555619e7fd> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555561c02f1> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d47450> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41fb0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555d41cbf> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d30e5> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7d16ac3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7da8850> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:28:17
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: d7bc268daaad7548ba78992deeb4c06f.0000002f.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.2024-09-11.12:28:17.864349.fuzz
+PID: 864349
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555695997> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555eeda6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e949> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:28:18
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 19a80e315ff0c351720ca48c563fb4c8.00000026.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.2024-09-11.12:28:18.871650.fuzz
+PID: 871650
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e920> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
+=====================================================================
+TIME: 2024-09-11.12:28:20
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a3e055b6def99015a99de00c0e257ff9.00000011.honggfuzz.cov
+FUZZ_FNAME: trident-tests/fuzz_tests/fuzzing/hfuzz_workspace/fuzz_0/SIGABRT.PC.7ffff7d189fc.STACK.c8abbb58f.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.2024-09-11.12:28:20.871118.fuzz
+PID: 871118
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7d189fc
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c8abbb58f
+STACK:
+ <0x00007ffff7cc4476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7caa7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555562a0d27> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555678c26> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555582a4f6> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1381> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d10e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1036> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562d1023> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555555f01c4> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x000055555568e920> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680d6c> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803ba> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x0000555555680398> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555562a0a9d> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00005555556803e0> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+ <0x00007ffff7cabd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7cabe40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555680155> [func:UNKNOWN file: line:0 module:/home/andy/solana/fuzzme/trident-tests/fuzz_tests/fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz_0]
+=====================================================================
